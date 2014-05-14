@@ -97,41 +97,39 @@ cd octopress Install Dependencies sudo gem install bundler &hellip;">
 
   <div class="entry-content"><h1>Clone Octopress from Github</h1>
 
-<p>git clone git://github.com/imathis/octopress.git octopress
-cd octopress</p>
+<blockquote><p>git clone git://github.com/imathis/octopress.git octopress
+cd octopress</p></blockquote>
 
 <h1>Install Dependencies</h1>
 
-<p>sudo gem install bundler
+<blockquote><p>sudo gem install bundler
 sudo gem install RedCloth
 rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
 bundle install
-rake install</p>
+rake install</p></blockquote>
 
 <h1>Deploy to Github</h1>
 
-<p>rake setup_github_pages
+<blockquote><p>rake setup_github_pages
 rake generate
-rake deploy</p>
+rake deploy</p></blockquote>
 
 <h1>Sync Source of Blog</h1>
 
-<p>cd _deploy
-git commit -m &ldquo;commit message&rdquo;</p>
+<blockquote><p>cd _deploy
+git commit -m &ldquo;commit message&rdquo;</p></blockquote>
 
 <h1>Blog Basics</h1>
 
-<p>rake new_post[&ldquo;Zombie Ninjas Attack: A survivor&rsquo;s retrospective&rdquo;]</p>
+<p>Creates source/_posts/2011-07-03-zombie-ninjas-attack-a-survivors-retrospective.markdown</p>
 
-<h1>Creates source/_posts/2011-07-03-zombie-ninjas-attack-a-survivors-retrospective.markdown</h1>
-
-<p>rake new_page[super-awesome]</p>
+<blockquote><p>rake new_post[&ldquo;Zombie Ninjas Attack: A survivor&rsquo;s retrospective&rdquo;]</p>
 
 <h1>creates /source/super-awesome/index.markdown</h1>
 
-<p>rake new_page[super-awesome/page.html]</p>
-
-<h1>creates /source/super-awesome/page.html</h1>
+<p>rake new_page[super-awesome]
+creates /source/super-awesome/page.html
+rake new_page[super-awesome/page.html]</p></blockquote>
 </div>
   
   
