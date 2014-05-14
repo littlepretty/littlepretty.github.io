@@ -9,7 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="Clone Octopress from Github git clone git://github.com/imathis/octopress.git octopress
+cd octopress Install Dependencies sudo gem install bundler &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +67,78 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/14/setup-octopress/">Setup Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-14T14:44:36+08:00" pubdate data-updated="true">May 14<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>Clone Octopress from Github</h1>
+
+<p>git clone git://github.com/imathis/octopress.git octopress
+cd octopress</p>
+
+<h1>Install Dependencies</h1>
+
+<p>sudo gem install bundler
+sudo gem install RedCloth
+rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+bundle install
+rake install</p>
+
+<h1>Deploy to Github</h1>
+
+<p>rake setup_github_pages
+rake generate
+rake deploy</p>
+
+<h1>Sync Source of Blog</h1>
+
+<p>cd _deploy
+git commit -m &ldquo;commit message&rdquo;</p>
+
+<h1>Blog Basics</h1>
+
+<p>rake new_post[&ldquo;Zombie Ninjas Attack: A survivor&rsquo;s retrospective&rdquo;]</p>
+
+<h1>Creates source/_posts/2011-07-03-zombie-ninjas-attack-a-survivors-retrospective.markdown</h1>
+
+<p>rake new_page[super-awesome]</p>
+
+<h1>creates /source/super-awesome/index.markdown</h1>
+
+<p>rake new_page[super-awesome/page.html]</p>
+
+<h1>creates /source/super-awesome/page.html</h1>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -77,6 +150,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/05/14/setup-octopress/">Setup Octopress</a>
+      </li>
     
   </ul>
 </section>
