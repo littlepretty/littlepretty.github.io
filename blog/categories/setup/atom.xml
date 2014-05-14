@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Setup | My Octopress Blog]]></title>
   <link href="http://littlepretty.github.io/blog/categories/setup/atom.xml" rel="self"/>
   <link href="http://littlepretty.github.io/"/>
-  <updated>2014-05-14T15:11:30+08:00</updated>
+  <updated>2014-05-14T20:01:35+08:00</updated>
   <id>http://littlepretty.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -63,6 +63,8 @@
 <p>creates /source/super-awesome/page.html</p>
 
 <blockquote><p><code>rake new_page[super-awesome/page.html]</code></p></blockquote>
+
+<h1><a href="http://octopress.org/docs/setup/">More Details, Visit Octopress Documentation Page</a></h1>
 ]]></content>
   </entry>
   
