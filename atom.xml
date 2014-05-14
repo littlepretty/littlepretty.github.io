@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://littlepretty.github.io/atom.xml" rel="self"/>
   <link href="http://littlepretty.github.io/"/>
-  <updated>2014-05-14T15:10:27+08:00</updated>
+  <updated>2014-05-14T15:11:30+08:00</updated>
   <id>http://littlepretty.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,24 +20,29 @@
     <id>http://littlepretty.github.io/blog/2014/05/14/setup-octopress</id>
     <content type="html"><![CDATA[<h1>Clone Octopress from Github</h1>
 
-<blockquote><p><code>git clone git://github.com/imathis/octopress.git octopress</code>
-<code>cd octopress</code></p></blockquote>
+<blockquote><p><code>git clone git://github.com/imathis/octopress.git octopress</code></p>
+
+<p><code>cd octopress</code></p></blockquote>
 
 <h1>Install Dependencies</h1>
 
-<blockquote><p><code>sudo gem install bundler</code>
-<code>sudo gem install RedCloth</code>
-<code>rbenv rehash</code>    # If you use rbenv, rehash to be able to run the bundle command
-<code>bundle install</code>
-<code>rake install</code></p></blockquote>
+<blockquote><p><code>sudo gem install bundler</code></p>
+
+<p><code>sudo gem install RedCloth</code></p>
+
+<p><code>rbenv rehash</code>    # If you use rbenv, rehash to be able to run the bundle command</p>
+
+<p><code>bundle install</code></p>
+
+<p><code>rake install</code></p></blockquote>
 
 <h1>Deploy to Github</h1>
 
-<p><code>rake setup_github_pages</code></p>
+<blockquote><p><code>rake setup_github_pages</code></p>
 
 <p><code>rake generate</code></p>
 
-<p><code>rake deploy</code></p>
+<p><code>rake deploy</code></p></blockquote>
 
 <h1>Sync Source of Blog</h1>
 
@@ -49,11 +54,15 @@
 
 <p>Creates source/_posts/2011-07-03-zombie-ninjas-attack-a-survivors-retrospective.markdown</p>
 
-<blockquote><p><code>rake new_post["Zombie Ninjas Attack: A survivor's retrospective"]</code>
-creates /source/super-awesome/index.markdown
-<code>rake new_page[super-awesome]</code>
-creates /source/super-awesome/page.html
-<code>rake new_page[super-awesome/page.html]</code></p></blockquote>
+<blockquote><p><code>rake new_post["Zombie Ninjas Attack: A survivor's retrospective"]</code></p></blockquote>
+
+<p>creates /source/super-awesome/index.markdown</p>
+
+<blockquote><p><code>rake new_page[super-awesome]</code></p></blockquote>
+
+<p>creates /source/super-awesome/page.html</p>
+
+<blockquote><p><code>rake new_page[super-awesome/page.html]</code></p></blockquote>
 ]]></content>
   </entry>
   
