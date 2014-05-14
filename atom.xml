@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://littlepretty.github.io/atom.xml" rel="self"/>
   <link href="http://littlepretty.github.io/"/>
-  <updated>2014-05-14T15:07:00+08:00</updated>
+  <updated>2014-05-14T15:10:27+08:00</updated>
   <id>http://littlepretty.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -33,14 +33,17 @@
 
 <h1>Deploy to Github</h1>
 
-<p><code>rake setup_github_pages</code>
-<code>rake generate</code>
-<code>rake deploy</code></p>
+<p><code>rake setup_github_pages</code></p>
+
+<p><code>rake generate</code></p>
+
+<p><code>rake deploy</code></p>
 
 <h1>Sync Source of Blog</h1>
 
-<blockquote><p><code>cd _deploy</code>
-<code>git commit -m "commit message"</code></p></blockquote>
+<blockquote><p><code>cd _deploy</code></p>
+
+<p><code>git commit -m "commit message"</code></p></blockquote>
 
 <h1>Blog Basics</h1>
 
