@@ -16,4 +16,8 @@
         <loc>http://littlepretty.github.io/robots.txt</loc>
         <lastmod>2014-05-14T14:16:34+08:00</lastmod>
     </url>
+    <url>
+        <loc>http://littlepretty.github.io/setup-octopress-1/</loc>
+        <lastmod>2014-05-14T14:55:07+08:00</lastmod>
+    </url>
 </urlset>
