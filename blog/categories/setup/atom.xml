@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Setup | My Octopress Blog]]></title>
   <link href="http://littlepretty.github.io/blog/categories/setup/atom.xml" rel="self"/>
   <link href="http://littlepretty.github.io/"/>
-  <updated>2014-05-14T20:12:12+08:00</updated>
+  <updated>2014-05-15T11:27:29+08:00</updated>
   <id>http://littlepretty.github.io/</id>
   <author>
     <name><![CDATA[Jiaqi Yan]]></name>
@@ -18,13 +18,13 @@
     <link href="http://littlepretty.github.io/blog/2014/05/14/setup-octopress/"/>
     <updated>2014-05-14T14:44:36+08:00</updated>
     <id>http://littlepretty.github.io/blog/2014/05/14/setup-octopress</id>
-    <content type="html"><![CDATA[<h1>Clone Octopress from Github</h1>
+    <content type="html"><![CDATA[<h2>Clone Octopress from Github</h2>
 
 <blockquote><p><code>git clone git://github.com/imathis/octopress.git octopress</code></p>
 
 <p><code>cd octopress</code></p></blockquote>
 
-<h1>Install Dependencies</h1>
+<h2>Install Dependencies</h2>
 
 <blockquote><p><code>sudo gem install bundler</code></p>
 
@@ -36,21 +36,21 @@
 
 <p><code>rake install</code></p></blockquote>
 
-<h1>Deploy to Github</h1>
+<h2>Deploy to Github</h2>
 
-<blockquote><p><code>rake setup_github_pages</code></p>
+<blockquote><p><code>rake setup_githuib_pages</code></p>
 
 <p><code>rake generate</code></p>
 
 <p><code>rake deploy</code></p></blockquote>
 
-<h1>Sync Source of Blog</h1>
+<h2>Sync Source of Blog</h2>
 
 <blockquote><p><code>cd _deploy</code></p>
 
 <p><code>git commit -m "commit message"</code></p></blockquote>
 
-<h1>Blog Basics</h1>
+<h2>Blog Basics</h2>
 
 <p>Creates source/_posts/2011-07-03-zombie-ninjas-attack-a-survivors-retrospective.markdown</p>
 
@@ -64,7 +64,7 @@
 
 <blockquote><p><code>rake new_page[super-awesome/page.html]</code></p></blockquote>
 
-<h1><a href="http://octopress.org/docs/setup/">More Details, Visit Octopress Documentation Page</a></h1>
+<h3><a href="http://octopress.org/docs/setup/">More Details, Visit Octopress Documentation Page</a></h3>
 ]]></content>
   </entry>
   
